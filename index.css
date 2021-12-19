@@ -1,0 +1,233 @@
+@media (max-width: 600px) {
+    body {
+        box-sizing: border-box;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLXIkDjtNk_qZWLyvIk_2xbBudUHdGy4t9yw&usqp=CAU);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    nav,
+    main {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    h2 {
+        color: cadetblue;
+        width: 40px;
+    }
+    h2 span {
+        color: crimson;
+    }
+    nav {
+        margin-right: 10px;
+        margin-top: 10px;
+        color: darkorange;
+    }
+    nav div {
+        margin-bottom: 10px;
+    }
+    .social-media img {
+        width: 20px;
+    }
+    .social-media {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .social-media div {
+        margin-left: 5px;
+    }
+    .introduction {
+        text-align: center;
+    }
+    .introduction div {
+        margin-bottom: 30px;
+        color: rebeccapurple;
+    }
+    .my-image {
+        display: none;
+    }
+    .image1 img {
+        width: 200px;
+    }
+    .introduction button {
+        padding: 10px 50px;
+        border-radius: 20px;
+        border: 0px;
+        outline: 0px;
+        color: white;
+        background-color: green;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 601px) {
+    body {
+        box-sizing: border-box;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLXIkDjtNk_qZWLyvIk_2xbBudUHdGy4t9yw&usqp=CAU);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 80px;
+        margin-right: 40px;
+    }
+    h2 {
+        color: salmon;
+    }
+    header span {
+        color: skyblue;
+    }
+    nav {
+        display: flex;
+        color: red;
+    }
+    nav div {
+        margin-right: 15px;
+    }
+    .social-media img {
+        width: 20px;
+    }
+    .social-media {
+        border: 1px solid greenyellow;
+        height: 220px;
+        border-radius: 20px;
+    }
+    .social-media div {
+        margin-bottom: 5px;
+        padding: 5px 5px;
+    }
+    .social-media :nth-child(1) {
+        margin-top: 10px;
+    }
+    main {
+        display: flex;
+        align-content: center;
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+    .image1 {
+        display: none;
+    }
+    .my-image img {
+        width: 300px;
+    }
+    .introduction {
+        margin-left: 40px;
+        margin-top: 10px;
+        width: 320px;
+    }
+    .introduction div {
+        margin-bottom: 15px;
+        font-size: 30px;
+        color: lavenderblush;
+    }
+    .introduction :nth-child(2) {
+        font-size: 40px;
+    }
+    .introduction :nth-child(3) {
+        font-size: 30px;
+        color: rgb(226, 43, 156);
+    }
+    .introduction :nth-child(4) {
+        font-size: 20px;
+        color: rebeccapurple;
+    }
+    .introduction button {
+        margin-top: 10px;
+        padding: 15px 50px;
+        border-radius: 20px;
+        border: 0px;
+        outline: 0px;
+    }
+}
+
+@media (min-width: 769px) {
+    body {
+        box-sizing: border-box;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLXIkDjtNk_qZWLyvIk_2xbBudUHdGy4t9yw&usqp=CAU);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 80px;
+        margin-right: 40px;
+        font-size: 20px;
+    }
+    h2 {
+        color: salmon;
+    }
+    header span {
+        color: skyblue;
+    }
+    nav {
+        display: flex;
+        color: red;
+    }
+    nav div {
+        margin-right: 15px;
+    }
+    .social-media img {
+        width: 20px;
+    }
+    .social-media {
+        border: 1px solid greenyellow;
+        height: 220px;
+        border-radius: 20px;
+    }
+    .social-media div {
+        margin-bottom: 5px;
+        padding: 5px 5px;
+    }
+    .social-media :nth-child(1) {
+        margin-top: 10px;
+    }
+    main {
+        display: flex;
+        align-content: center;
+        margin-top: 100px;
+        margin-left: 40px;
+    }
+    .image1 {
+        display: none;
+    }
+    .my-image img {
+        width: 400px;
+        margin-left: 100px;
+    }
+    .introduction {
+        margin-left: 100px;
+        margin-top: 10px;
+        width: 320px;
+    }
+    .introduction div {
+        margin-bottom: 15px;
+        font-size: 30px;
+        color: lavenderblush;
+    }
+    .introduction :nth-child(2) {
+        font-size: 40px;
+    }
+    .introduction :nth-child(3) {
+        font-size: 30px;
+        color: rgb(226, 43, 156);
+    }
+    .introduction :nth-child(4) {
+        font-size: 20px;
+        color: rebeccapurple;
+    }
+    .introduction button {
+        margin-top: 10px;
+        padding: 15px 50px;
+        border-radius: 20px;
+        border: 0px;
+        outline: 0px;
+    }
+}
