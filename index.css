@@ -1,7 +1,7 @@
 @media (max-width: 600px) {
     body {
         box-sizing: border-box;
-        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLXIkDjtNk_qZWLyvIk_2xbBudUHdGy4t9yw&usqp=CAU);
+        background-image: url(https://wallpaperaccess.com/full/2008050.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -28,6 +28,13 @@
     nav div {
         margin-bottom: 10px;
     }
+    .options {
+        display: none;
+    }
+    .select img {
+        width: 30px;
+        margin-top: 20px;
+    }
     .social-media img {
         width: 20px;
     }
@@ -44,7 +51,7 @@
     }
     .introduction div {
         margin-bottom: 30px;
-        color: rebeccapurple;
+        color: rgb(226, 43, 156);
     }
     .my-image {
         display: none;
@@ -65,7 +72,7 @@
 @media (max-width: 768px) and (min-width: 601px) {
     body {
         box-sizing: border-box;
-        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLXIkDjtNk_qZWLyvIk_2xbBudUHdGy4t9yw&usqp=CAU);
+        background-image: url(https://wallpaperaccess.com/full/2008050.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -88,6 +95,12 @@
     }
     nav div {
         margin-right: 15px;
+    }
+    .select {
+        display: none;
+    }
+    .options {
+        display: flex;
     }
     .social-media img {
         width: 20px;
@@ -149,7 +162,7 @@
 @media (min-width: 769px) {
     body {
         box-sizing: border-box;
-        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLXIkDjtNk_qZWLyvIk_2xbBudUHdGy4t9yw&usqp=CAU);
+        background-image: url(https://wallpaperaccess.com/full/2008050.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -171,8 +184,14 @@
         display: flex;
         color: red;
     }
+    .select {
+        display: none;
+    }
     nav div {
         margin-right: 15px;
+    }
+    .options {
+        display: flex;
     }
     .social-media img {
         width: 20px;
