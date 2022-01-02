@@ -157,6 +157,9 @@
         border: 0px;
         outline: 0px;
     }
+    .introduction button {
+        background-color: purple;
+    }
 }
 
 @media (min-width: 769px) {
@@ -220,6 +223,9 @@
     .my-image img {
         width: 400px;
         margin-left: 100px;
+        position: absolute;
+        top: 90px;
+        height: 400px;
     }
     .introduction {
         margin-left: 100px;
@@ -240,7 +246,7 @@
     }
     .introduction :nth-child(4) {
         font-size: 20px;
-        color: rebeccapurple;
+        color: white;
     }
     .introduction button {
         margin-top: 10px;
@@ -248,5 +254,8 @@
         border-radius: 20px;
         border: 0px;
         outline: 0px;
+    }
+    .introduction button {
+        background-color: purple;
     }
 }
